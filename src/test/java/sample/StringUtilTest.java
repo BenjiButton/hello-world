@@ -19,6 +19,6 @@ public class StringUtilTest {
         strings.add("Arnoe");
         strings.add("Francois");
         strings.add("Matthew");
-        assertEquals("Benji,Arnoe,Fracois,Matthew", StringUtil.join(strings, ","));
+        assertEquals("Benji,Arnoe,Francois,Matthew", StringUtil.join(strings, ","));
     }
 }
