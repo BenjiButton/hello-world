@@ -9,6 +9,6 @@ import java.util.List;
 public class StringUtil {
 
     public static String join(List<String> strings, String delimeter) {
-        return null;
+        return String.join(delimeter ,strings);
     }
 }
